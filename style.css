@@ -1,0 +1,94 @@
+/* estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(/images/biblioteca.jpg) no-repeat center center/ cover;
+
+}
+
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    padding: 20px;
+    background-color: white;
+    border: 10px solid violet;
+    border-radius: 25px;
+    margin: 15px;
+
+}
+
+.contenedor-interno{
+    width: 80% ;
+}
+
+  
+  .col {
+    margin: -45px; /* Ajusta el margen entre las columnas según tus necesidades */
+    margin-top: 20px;
+  }
+  
+  
+
+/* contenido*/
+
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'courgette', cursive;
+}
+
+#cita {
+    font-size: 32px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+#autor{
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'courgette', cursive;
+}
+#foto{
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 5px;
+}
+
+#boton-cambiar-cita{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
+
